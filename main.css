@@ -1,0 +1,42 @@
+body {
+	background-color: black; 
+	z-index: -1; 
+}
+#nav {
+	background-color: black;
+}
+.nav-link {
+	color: rgb(124, 145, 57); 
+}
+.nav-link:hover {
+	color: white; 
+}
+.jumbotron {
+	background: url('rustic-wood.jpg')no-repeat center center; 
+	background-size: cover; 
+}
+.jumbotron h1, .jumbotron p {
+	color: black;  
+	text-shadow: 3px 3px 3px rgb(124, 145, 57); 
+	font-weight: bolder; 
+}
+#about {
+	width: 100%; 
+	margin-bottom: 3px; 
+	height: 300px; 
+}
+#about p {
+	text-align: center; 
+	margin: 3px 30px; 
+}
+#about p img {
+	margin-bottom: 3px; 
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center; 
+	background-color: rgba(124, 145, 57, .85); 
+	padding: 6px 0; 
+	grid-row-gap: 6px; 
+}
