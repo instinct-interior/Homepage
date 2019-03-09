@@ -1,6 +1,10 @@
+html {
+	height: 100%; 
+}
 body {
 	background-color: black; 
 	z-index: -1; 
+	height: 100%; 
 }
 #nav {
 	background-color: black;
@@ -39,4 +43,19 @@ body {
 	background-color: rgba(124, 145, 57, .85); 
 	padding: 6px 0; 
 	grid-row-gap: 6px; 
+}
+#quote, #contactUs {
+	text-align: center;
+	margin-top: 3px; 
+	margin-bottom: 3px; 
+} 
+#contactUs a {
+	text-decoration: none; 
+}
+.footer {
+	background-color: rgb(124, 145, 57); 
+	
+} 
+#one {
+	margin-bottom: 0; 
 }
