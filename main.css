@@ -13,7 +13,7 @@ body {
 	color: rgb(124, 145, 57); 
 }
 .nav-link:hover {
-	color: white; 
+	color: white !important; 
 }
 .jumbotron {
 	background: url('rustic-wood.jpg')no-repeat center center; 
@@ -49,9 +49,17 @@ body {
 	margin-top: 3px; 
 	margin-bottom: 3px; 
 } 
+#quote h2 {
+	color: rgb(124, 145, 57);
+	text-shadow: 1px 1px white; 
+}
 #contactUs a {
 	text-decoration: none; 
+	width: 3rem; 
+	height: 3rem; 
+	color: rgb(124, 145, 57);
 }
+
 .footer {
 	background-color: rgb(124, 145, 57); 
 	
